@@ -1,0 +1,183 @@
+/* google fonts import link */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* All css style start  */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* btn-primary */
+.btn-primary{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+}
+/* header css related style */
+.header{
+    background: rgba(229, 84, 115, 0.10);
+}
+#banner-container{
+    display: flex;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.banner-content{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.banner-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 32px;
+    padding-right: 10px;
+}
+.banner-pic{
+    max-width: 100%;
+}
+/* header css part end */
+
+/* main css part start */
+
+/* featured section css part start */
+.container{
+    max-width: 1170px;
+    margin: 128px auto;
+}
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 594px;
+    margin: 0 auto;
+}
+.featured-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.featured-content{
+    padding-top: 48px;
+}
+.featured-container .featured-content .featured-flower{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border-radius: 300px 300px 0px 0px;
+    height: 450px;
+    width: 350px;
+}
+.featured-flower img{
+    width: 80%;
+}
+.pink{
+    background: rgba(167, 33, 98, 0.15);
+}
+.blue{
+    background: rgba(5, 151, 160, 0.15);
+}
+.green{
+    background: rgba(71, 125, 17, 0.15); 
+}
+.featured-content .flower-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 32px;
+}
+/* featured section css part end */
+/* advantages section part start */
+.advantage-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.advantage-content{
+    padding: 86px 0px;
+    text-align: center;
+}
+.advantage-content .advantage-img{
+    width: 88px;
+    margin-bottom: 24px;
+}
+.advantage-content .advantage-description{
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+/* advantages section part end */
+/* hot-deal section css part start */
+#hot-deal{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.hot-deal-mr{
+    margin: 0 auto;
+}
+.hot-deal-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hot.deal-content{
+    margin-top: 50px;
+    text-align: center;
+}
+.color-pink{
+    color: #E55473;
+}
+.customize-description{
+    margin-bottom: 30px;
+}
+.hot-deal-container .hot-deal-img{
+    max-width: 100%;
+}
+

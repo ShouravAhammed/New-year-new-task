@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: rgba(229, 84, 115, 0.10);
+}
+#banner-container{
+    max-width: 1140px;
+}
